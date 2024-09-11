@@ -1,0 +1,2 @@
+Pour commencer, on a regarder l'ID du commit jute avant l'erreur, on a ensuite utilisé la commande "git reset --hard <id du commit>" ce qui a permis de revenir à la bonne version du commit qui n'est pas erroné. ensuite, on a fait un "git push -f origin dev_antoine" 
+ce qui a permis de forcer le push malgré le fait qu'il était en retard, puis j'ai fait un merge du main avec la branche dev_antoine, ce qui a résoud le problème.
